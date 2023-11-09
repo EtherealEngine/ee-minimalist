@@ -26,7 +26,7 @@ Ethereal Engine. All Rights Reserved.
 import type { ProjectConfigInterface } from '@etherealengine/projects/ProjectConfigInterface'
 
 const config: ProjectConfigInterface = {
-  onEvent: undefined,
+  onEvent: './projectEventHooks.ts',
   thumbnail: '/static/etherealengine_thumbnail.jpg',
   routes: {},
   services: undefined,
