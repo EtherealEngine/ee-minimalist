@@ -34,7 +34,7 @@
     "./tests/**/*.ts"
   ],
   "include": [
-    "../../../server-core/src/*",
+    "../../../../server-core/src/*",
     "./**/*.ts",
     "./**/*.tsx"
   ]
